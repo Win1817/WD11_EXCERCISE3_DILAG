@@ -1,0 +1,317 @@
+*{
+    color: white;
+    margin-left: 0;
+    margin-right: 0%;
+}
+body{
+    background-color: rgb(211, 211, 211);
+}
+.firstDiv{
+    width: 100%;
+    height: 100vh;
+    float: left;
+}
+.secondDiv{
+    width: 100%;
+    height: 100vh;
+    float: left;
+    position: absolute;
+    text-align: center;
+}
+.secondDivContainer{
+    margin: 5px;
+}
+.sampleNavigation{
+    position: fixed;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: aqua;
+    top: 0;
+    width: 100%;
+    padding: 10px 5px;
+    z-index: 1000;
+    margin:0;
+}
+.mainDiv{
+    font-size: 100px;
+    font-weight: bolder;
+    width: 100%;
+    height: 100vh;
+    float: left;
+    position: absolute;
+    text-align: center;
+    top: 28%;
+    left: 0%;
+    font-family: 'The Nautigal', cursive;
+}
+.subDiv{
+    font-size: 25px;
+    font-weight: bolder;
+    width: 100%;
+    height: 100vh;
+    float: left;
+    position: absolute;
+    top: 45%;
+    left: 0%;
+    font-family: 'Trebuchet MS',Arial;
+    text-align: center;
+}
+.menuButton{
+    font-size: 25px;
+    font-weight: bolder;
+    top: 30px;
+    left: 15px;
+    position: absolute;
+    font-family: monospace;
+    letter-spacing: 15px;
+    text-align: center;
+}
+.menuButton2{
+    font-size: 25px;
+    font-weight: bolder;
+    top: 30px;
+    right: 15px;
+    position: absolute;
+    font-family: monospace;
+}
+.buttonType{
+    list-style-type: none;
+    display: flex;
+}
+.home{
+    position: absolute;
+    right: 300px;
+}
+.gallery{
+    position: absolute;
+    right: 175px;
+}
+.festival{
+    position: absolute;
+    right: 25px;
+ }
+* {
+    box-sizing: border-box;
+}
+      
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.column {
+    max-width: 500px;
+  width: 100%;
+}
+ul{
+    float: right;
+    margin-top: 25px;
+    margin-right: 25px;
+    position: absolute;
+    right: 0;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(255 255 255);
+    padding: 5px 20px;
+    border: 2px solid black;
+    transition: 0.5s ease;
+    background-color: lightgreen;
+}
+ul li a:hover{
+    background-color: rgba(255, 255, 255, 0.245);
+    border: 2px solid rgb(255, 255, 255);
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #000;
+}
+ul li.active a{
+    background-color: rgb(0, 255, 119);
+    border: 2px solid rgb(255, 255, 255);
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #000;
+}
+.ctitle{
+    top: 10%;
+    left: 3%;
+    font-size: 75px;
+    font-weight: 500;
+    position: absolute;
+    font-family: initial;
+    color: darkred;
+}
+.txtbn{
+border: 2px solid gray;
+    padding: 12px 18px;
+    border-radius: 1px;
+    position: absolute;
+    top: 25%;
+    left: 1%;
+	width: 350px;
+    height: 37px;
+}
+.txtbe{
+    border: 2px solid gray;
+    padding: 12px 18px;
+    border-radius: 1px;
+    position: absolute;
+    top: 35%;
+    left: 1%;
+	width: 350px;
+    height: 37px;
+}
+.txtbm{
+    border: 2px solid gray;
+    padding: 12px 18px;
+    border-radius: 1px;
+    position: absolute;
+    top: 45%;
+    left: 1%;
+	width: 350px;
+    height: 80px;
+}
+.txtbn label{
+	display: block;
+	text-align: left;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.txtbe label{
+	display: block;
+	text-align: left;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.txtbm label{
+	display: block;
+	text-align: left;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.txtbn input{
+    width: 102%;
+    border: none;
+    background: none;
+    font-size: 15px;
+    letter-spacing: normal;
+    text-align: start;
+    font-family: Initial;
+    color: black;
+}
+.txtbe input{
+    width: 102%;
+    border: none;
+    background: none;
+    font-size: 15px;
+    letter-spacing: normal;
+    text-align: start;
+    font-family: Initial;
+    color: black;
+}	
+.txtbm input{
+    width: 102%;
+    border: none;
+    background: none;
+    font-size: 15px;
+    letter-spacing: normal;
+    text-align: start;
+    font-family: Initial;
+    color: black;
+}		
+textarea {
+    flex-direction: column;
+    resize: auto;
+    cursor: text;
+    border-width: 1px;
+    border-style: solid;
+    border-color: initial;
+    position: absolute;
+    top: 105%;
+    left: 1%;
+}
+.formDesign{
+    border-left: solid black 3px;
+    border-right: solid black 3px;
+    border-bottom: solid black 3px;
+    border-top: solid black 3px;
+    margin: 1px;
+    display: inline-block;
+    background-color: rgb(174 174 174 / 33%);
+    color: black;
+    width: -webkit-fill-available;
+    height: 706px;
+    font-weight: bold;
+}
+.boxContainer{
+    background-image: url(view.jpg);
+    background-size: 100%;
+    height: 705px;
+}
+#headingDesign{
+    background-color: #f9f9f9;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Titillium Web', sans-serif;
+    position: relative;
+    top: 30px;
+}
+.send{
+    position: absolute;
+    top: 165%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    padding: 10px 30px;
+    color: black;
+    width: 114px;
+    height: 15px;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+a.send:hover{
+	background-color: #fff;
+	color: #000;
+	transition: 0.6s ease; 
+}
+ul li{
+	display: inline-block;
+}
+ul li.send:hover{
+	background-color: white;
+	color: #000;
+}
+.formLoc{
+    position: relative;
+    top: 15%;
+}
+.boxModel {
+    padding: 2px 2px 2px 2px;
+    border-left: solid black 3px;
+    border-right: solid black 3px;
+    border-bottom: solid black 3px;
+    border-top: solid black 3px;
+    margin: 1px;
+    display: block;
+    background-color: #00b9118c;
+    color: black;
+    width: -webkit-fill-available;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    float: none;
+    top: 775px;
+}
